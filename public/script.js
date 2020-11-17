@@ -40,11 +40,11 @@ const iceServers = [
 var peer = new Peer({
     path: '/peerjs',
     host: '/',
-    port: '3030',
+    port: '443',
     config: {
         iceServers: iceServers
     }
-    //3030 because local host 3030
+    //3030 because local host 3030 // 443
 });
 // change
 /*var peer = new Peer({
